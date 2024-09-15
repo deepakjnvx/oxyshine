@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "48965669266",
+    "project_id": "oxyshine-cd6a7",
+    "storage_bucket": "oxyshine-cd6a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48965669266:android:40105675a7fedc6a03b14b",
+        "android_client_info": {
+          "package_name": "com.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48965669266-knq03ista8ok1cnpo2hfrot9slo5gk5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exam",
+            "certificate_hash": "c0474c7f97fa4158a80b6d5ab9aee5c4023b7ef0"
+          }
+        },
+        {
+          "client_id": "48965669266-hlik6unghenokreb8sf9kdt9fv02o5nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGzfjmU64TRTYYJP8sA6U94jV7GwDjLRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48965669266-hlik6unghenokreb8sf9kdt9fv02o5nd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48965669266-d8j6okfkumiej6p9ifup57bp48pnh60u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.oxyshine"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48965669266:android:74478223665e986103b14b",
+        "android_client_info": {
+          "package_name": "com.oxyshine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48965669266-hlik6unghenokreb8sf9kdt9fv02o5nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGzfjmU64TRTYYJP8sA6U94jV7GwDjLRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48965669266-hlik6unghenokreb8sf9kdt9fv02o5nd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48965669266-d8j6okfkumiej6p9ifup57bp48pnh60u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.oxyshine"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
