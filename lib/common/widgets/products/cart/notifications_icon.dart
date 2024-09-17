@@ -1,6 +1,6 @@
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
 
 class TNotificationsIcon extends StatelessWidget {
   const TNotificationsIcon({

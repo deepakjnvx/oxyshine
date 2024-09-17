@@ -6,10 +6,9 @@ import 'package:flutter/material.dart';
 class TPrimaryHeaderContainer extends StatelessWidget {
   const TPrimaryHeaderContainer({
     super.key,
-    required this.child, required this.height,
+    required this.child,
   });
   final Widget child;
-  final double height;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +17,6 @@ class TPrimaryHeaderContainer extends StatelessWidget {
         color: TColors.primary,
         padding: const EdgeInsets.all(0),
         child: SizedBox(
-          height: height,
           child: Stack(
             children: [
               Positioned(

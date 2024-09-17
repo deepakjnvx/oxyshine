@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: TTexts.appName,
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
-      // darkTheme: TAppTheme.darkTheme,
+      darkTheme: TAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
       initialBinding: GeneralBindings(),
       home: const Scaffold(

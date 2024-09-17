@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:oxyshine/utils/constants/colors.dart';
+import 'package:oxyshine/utils/helpers/helper_functions.dart';
 
 class TSectionHeading extends StatelessWidget {
   const TSectionHeading({
@@ -32,7 +34,11 @@ class TSectionHeading extends StatelessWidget {
         if (showActionButton)
           TextButton(
             onPressed: onPressed,
-            child: Text(buttonTitle, style: Theme.of(context).textTheme.bodyLarge!),
+            child: Text(buttonTitle,
+                style: Theme.of(context).textTheme.bodyMedium!.apply(
+                    color: THelperFunctions.isDarkMode(context)
+                        ? TColors.white
+                        : TColors.black)),
           ),
       ],
     );

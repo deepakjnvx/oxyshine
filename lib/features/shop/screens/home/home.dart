@@ -19,7 +19,6 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             TPrimaryHeaderContainer(
-              height: 470,
               child: Column(
                 children: [
                   /// -- AppBAr --
@@ -50,6 +49,7 @@ class HomeScreen extends StatelessWidget {
                       ],
                     ),
                   ),
+                  const SizedBox(height: TSizes.spaceBtwSections),
                 ],
               ),
             ),

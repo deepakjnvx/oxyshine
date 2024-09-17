@@ -1,6 +1,5 @@
-// import 'package:oxyshine/data/repositories/authentication/authentication_repository.dart';
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/features/authentication/controllers/signup/signup_controller.dart';
-// import 'package:oxyshine/features/authentication/screens/signup/verify_email.dart';
 import 'package:oxyshine/utils/constants/colors.dart';
 import 'package:oxyshine/utils/constants/sizes.dart';
 import 'package:oxyshine/utils/constants/text_strings.dart';
@@ -8,7 +7,6 @@ import 'package:oxyshine/utils/helpers/helper_functions.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:oxyshine/utils/validators/validation.dart';
 
 class TSignupForm extends StatelessWidget {

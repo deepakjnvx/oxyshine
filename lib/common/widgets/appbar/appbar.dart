@@ -1,8 +1,8 @@
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/utils/constants/sizes.dart';
 import 'package:oxyshine/utils/device/device_utility.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
 
 class TAppBar extends StatelessWidget implements PreferredSizeWidget {
   const TAppBar({

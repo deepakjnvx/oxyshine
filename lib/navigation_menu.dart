@@ -1,13 +1,12 @@
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/features/shop/screens/chat/chat.dart';
 import 'package:oxyshine/features/shop/screens/home/home.dart';
 import 'package:oxyshine/features/shop/screens/appointment/appointment.dart';
-import 'package:oxyshine/features/shop/screens/profile/profile.dart';
+import 'package:oxyshine/features/personalization/screens/settings/settings.dart';
 import 'package:oxyshine/utils/constants/colors.dart';
 import 'package:oxyshine/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
-import 'package:ionicons/ionicons.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -33,8 +32,7 @@ class NavigationMenu extends StatelessWidget {
             NavigationDestination(icon: Icon(Iconsax.home), label: 'Home'),
             NavigationDestination(
                 icon: Icon(Iconsax.shop), label: 'Appointment'),
-            NavigationDestination(
-                icon: Icon(Ionicons.chatbubble_ellipses), label: 'Chat'),
+            NavigationDestination(icon: Icon(Iconsax.message), label: 'Chat'),
             NavigationDestination(icon: Icon(Iconsax.user), label: 'Profile'),
           ],
         ),
@@ -50,6 +48,6 @@ class NavigationController extends GetxController {
     const HomeScreen(),
     const Appointment(),
     const Chat(),
-    const ProfilePage(),
+    const SettingsScreen(),
   ];
 }

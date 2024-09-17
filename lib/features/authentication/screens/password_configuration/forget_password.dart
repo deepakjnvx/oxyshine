@@ -3,7 +3,7 @@ import 'package:oxyshine/utils/constants/sizes.dart';
 import 'package:oxyshine/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/utils/validators/validation.dart';
 
 class ForgetPassword extends StatelessWidget {

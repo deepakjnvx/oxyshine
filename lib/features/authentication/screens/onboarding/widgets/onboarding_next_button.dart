@@ -1,3 +1,4 @@
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:oxyshine/utils/constants/colors.dart';
 import 'package:oxyshine/utils/constants/sizes.dart';
@@ -5,7 +6,6 @@ import 'package:oxyshine/utils/device/device_utility.dart';
 import 'package:oxyshine/utils/helpers/helper_functions.dart';
 
 import 'package:flutter/material.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
 
 class OnBoardingNextButton extends StatelessWidget {
   const OnBoardingNextButton({

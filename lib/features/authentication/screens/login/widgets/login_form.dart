@@ -1,3 +1,4 @@
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/features/authentication/controllers/login/login_controller.dart';
 import 'package:oxyshine/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:oxyshine/features/authentication/screens/signup/signup.dart';
@@ -5,7 +6,6 @@ import 'package:oxyshine/utils/constants/sizes.dart';
 import 'package:oxyshine/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:oxyshine/utils/validators/validation.dart';
 
 class TLoginForm extends StatelessWidget {

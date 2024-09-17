@@ -1,7 +1,7 @@
+import 'package:iconsax/iconsax.dart';
 import 'package:oxyshine/features/shop/models/doctor_model.dart';
 import 'package:oxyshine/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:ionicons/ionicons.dart';
 
 class DoctorProfileScreen extends StatelessWidget {
